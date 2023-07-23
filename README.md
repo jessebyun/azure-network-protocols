@@ -96,7 +96,7 @@ Next, we are going to initiate a perpetual ping from VM1 to VM2 which is a non-s
   <img src="https://imgur.com/KI3A7mz.png" height="80%" width="80%" alt="NSG_rule"/>
 </p>
 <p>
-We will minimize VM1 and go back to the Azure portal and go to Network Security Groups (NSG) which is essentially a firewall in Azure. To accomplish this, we will go into VM2 (Linux) NSG and deny inbound ICMP traffic to block pings coming from VM1. We will create another rule that says for ICMP traffic for any destination, the action will be denied. The rule will be created within VM2’s Network Security Group. 
+We will minimize VM1 and go back to the Azure portal and go to Network Security Groups (NSG) which is essentially a firewall in Azure. We will go into VM2 (Linux) NSG and deny inbound ICMP traffic to block pings coming from VM1. To accomplish this, we will create another rule that says for ICMP traffic for any destination, the action will be denied. The rule will be created within VM2’s Network Security Group. 
 </p>
 <br />
 <br />
