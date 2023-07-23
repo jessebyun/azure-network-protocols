@@ -118,7 +118,7 @@ Switch back to our VM1 Remote Desktop connection and you can see the ping has im
 <img src="https://imgur.com/9jXXG5S.png" height="80%" width="80%" alt="allow_icmp"/>
 </p>
 <p>
-We are going to go back into Azure portal and allow VM2’s NSG to allow ICMP traffic again. We can see the replies coming back in from Wireshark and PowerShell. 
+We are going to go back into Azure portal and allow VM2’s NSG to allow ICMP traffic again. We can see the replies coming back in reflected in Wireshark and PowerShell. 
 </p>
 <br />
 <br />
