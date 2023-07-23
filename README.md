@@ -181,7 +181,7 @@ Next, we will be going to observe DNS traffic. Filter for DNS traffic by typing 
 <img src="https://imgur.com/Y2oZyzZ.png" height="80%" width="80%" alt="RDP"/>
 </p>
 <p>
-Last thing we will observe is RDP traffic by filtering by “tcp.port == 3389”. As soon as you filter by RDP traffic you can see spamming non-stop because there is a live, active RDP session from our host computer to our physical computer. 
+Last thing we will observe is RDP traffic by filtering by “tcp.port == 3389”. As soon as you filter for RDP traffic you can see spamming non-stop because there is a live, active RDP session from our host computer to our physical computer. 
 </p>
 <br />
 <br />
