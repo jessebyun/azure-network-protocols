@@ -170,7 +170,7 @@ Next, we will observe DHCP traffic. DHCP is used to automatically assign your IP
 <img src="https://imgur.com/3jTfnCo.png" height="80%" width="80%" alt="DNS"/>
 </p>
 <p>
-Next, we will be going to observe DNS traffic. Filter for DNS traffic by typing “DNS” or “udp.port == 53”, because DNS uses port 53. We can ask the DNS server what the IP address is for any given host name. With “nslookup www.google.com” this essentially asks our DNS server: Hey, what Google’s IP address? We can see we got an answer with some of Google’s IP addresses. Also in Wireshark we can see we got whole bunch of Source and Destination queries from between us and our DNS server. It essentially looked up all the information about Google and returned the IP address to us. 
+Next, we will be going to observe DNS traffic. Filter for DNS traffic by typing “DNS” or “udp.port == 53”, because DNS uses port 53. We can ask the DNS server what the IP address is for any given host name. With “nslookup www.google.com” this essentially asks our DNS server: Hey, what is Google’s IP address? We can see we got an answer with some of Google’s public IP addresses. Also in Wireshark we can see we got whole bunch of Source and Destination queries from between us and our DNS server. It essentially looked up all the information about Google and returned the IP address to us. 
 </p>
 <br />
 <br />
