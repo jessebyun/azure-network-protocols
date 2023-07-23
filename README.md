@@ -82,7 +82,7 @@ Next, we will ping www.google.com using IPv4 and we can see traffic going to Goo
   <img src="https://imgur.com/JGRsMsJ.png" height="80%" width="80%" alt="perpetual_ping"/>
 </p>
 <p>
-Next, we are going to initiate a perpetual ping from VM1 to VM2 which is a non-stop ping from VM1 to VM2. Then in the next step we are going to change the firewall on VM2 to not allow ICMP traffic to come through. Because ping uses ICMP protocol, once we do that, we should stop seeing Echo replies from VM2. We will observe the results to get a better understanding of how firewalls work. 
+Next, we are going to initiate a perpetual ping from VM1 to VM2 which is a non-stop ping from VM1 to VM2. Then in the following step we are going to change the firewall on VM2 to not allow ICMP traffic to come through. Because ping uses ICMP protocol, once we do that, we should stop seeing Echo replies from VM2. We will observe the results to get a better understanding of how firewalls work. 
 </p>
 <br />
 <br />
