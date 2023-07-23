@@ -129,7 +129,7 @@ We are going to go back into Azure portal and allow VM2’s NSG to allow ICMP tr
 <img src="https://imgur.com/cwF2is6.png" height="80%" width="80%" alt="initial_SSH_traffic"/>
 </p>
 <p>
-Next, we are going to explore SSH traffic. SSH is essentially the same thing as Remote Desktop except there is no GUI and you can access another computer's command line. Filter by SSH traffic in Wireshark. Instead of pinging VM2, we are going to SSH into it from VM1. We are going to connect from VM1 to VM2 via Secure Shell. When we created VM1 and VM2, we also created a user login with identical names (Labuser). To SSH into VM2 we are going to open PowerShell and type SSH Labuser@10.0.0.5. Immediately when we try to initiate the SSH connection, we can see some SSH traffic in Wireshark.  
+Next, we are going to explore SSH traffic. SSH is essentially the same thing as Remote Desktop except there is no GUI and you can access another computer's command line. Filter by SSH traffic in Wireshark. Instead of pinging VM2, we are going to SSH into it from VM1. We are going to connect from VM1 to VM2 via Secure Shell. When we created VM1 and VM2, we also created a user logins both with identical user names (Labuser). To SSH into VM2 we are going to open PowerShell and type SSH Labuser@10.0.0.5. Immediately when we try to initiate the SSH connection, we can see some SSH traffic in Wireshark.  
 </p>
 <br />
 <br />
