@@ -48,7 +48,7 @@ First, we will create 2 Virtual Machines named Client-1 and Linux. Client-1 will
   <img src="https://imgur.com/eup7Hf7.png" height="80%" width="80%" alt="create_vm"/>
 </p>
 <p>
- Once we have our two VM's created, we will then remote login to Windows VM (VM1) and install Wireshark. 
+ Once we have our two VM's created, we will Remote Desktop into the Windows VM (VM1) and install Wireshark. 
 </p>
 <br />
 <br />
@@ -70,12 +70,20 @@ In Wireshark, the first line we can see the source IP 10.0.0.4 (VM1) and destina
 
 <p>
 <img src="https://imgur.com/BqMLLUW.png" height="80%" width="80%" alt="icmp_ping_google"/>
+</p>
+<p>
+  Next, we will ping www.google.com using IPv4 and we can see traffic going to Google and traffic coming back from Google. The first ping request we can see the source 10.0.0.4 (VM1) and the destination 142.251.16.99 which is one of Google’s public IP addresses. 
+</p>
   <br />
   <br />
+  <br />
+  <br />
+
+<p>
   <img src="https://imgur.com/6iWCaOV.png" height="80%" width="80%" alt="icmp_ping_google"/>
 </p>
 <p>
-Next, we will ping www.google.com using IPv4 and we can see traffic going to Google and traffic coming back from Google. The first ping request we can see the source 10.0.0.4 (VM1) and the destination 142.251.16.99 which is one of Google’s public IP addresses. Can see what is actually being sent if we expand Internet Control Message Protocol and click Data. Interesting that it is sending the alphabet abcdefghiklmn... which is essentially just junk data being sent across the network.
+We can see what is actually being sent if we expand Internet Control Message Protocol and click Data. Interesting that it is sending the alphabet abcdefghiklmn... which is essentially just junk data being sent across the network.
 </p>
 <br />
 <br />
