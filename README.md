@@ -30,14 +30,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://imgur.com/zMqfyvU.png" height="80%" width="80%" alt="create_vm"/>
-  <br />
-  <br />
-  <br />
-  <img src="https://imgur.com/oZDTUQg.png" height="80%" width="80%" alt="create_vm"/>
+First, we will create 2 Virtual Machines named Client-1 and Linux. Client-1 will be our Windows VM (later referred as VM1) and Linux will be our Linux VM (later referred as VM2).
 </p>
 <p>
-First, we will create 2 Virtual Machines named Client-1 and Linux. Client-1 will be our Windows VM (later referred as VM1) and Linux will be our Linux VM (later referred as VM2).
+  <img src="https://i.imgur.com/K8pdlD7.png" height="80%" width="80%" alt="create_vm"/>
 </p>
   <br />
   <br />
